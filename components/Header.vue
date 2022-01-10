@@ -1,5 +1,5 @@
 <template>
-  <v-toolbar dense elevation="0" class="header">
+  <v-toolbar dense fixed flat="true" class="header">
     <div class="header__content">
       <v-avatar size="20" tile>
         <img src="@/assets/logo.png" alt="Logo" />
@@ -17,6 +17,10 @@ export default Vue.extend({});
 
 <style lang="scss" scoped>
 .header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
   &__content {
     &_ttl {
       margin-left: 0.25rem;
