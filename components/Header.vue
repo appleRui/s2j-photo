@@ -1,10 +1,8 @@
 <template>
-  <v-toolbar dense fixed flat=true class="header">
+  <v-toolbar dense fixed flat="true" class="header">
     <div class="header__content">
-      <v-avatar size="20" tile>
-        <img src="@/assets/logo.png" alt="Logo" />
-      </v-avatar>
-      <span class="header__content_ttl">TDU 二部写真部</span>
+      <v-avatar size="20" tile> 📸 </v-avatar>
+      <span class="header__content_ttl">Tokyo Denki University s2j-photo</span>
     </div>
   </v-toolbar>
 </template>
@@ -18,11 +16,12 @@ export default Vue.extend({});
 <style lang="scss" scoped>
 .header {
   width: 100%;
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   &__content {
     &_ttl {
+      font-size: 14px;
       margin-left: 0.25rem;
     }
   }
