@@ -1,5 +1,5 @@
 <template>
-  <v-toolbar dense fixed flat="true" class="header">
+  <v-toolbar dense fixed flat=true class="header">
     <div class="header__content">
       <v-avatar size="20" tile>
         <img src="@/assets/logo.png" alt="Logo" />
