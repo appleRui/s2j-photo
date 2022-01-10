@@ -1,7 +1,7 @@
 <template>
-  <v-toolbar dense class="header">
+  <v-toolbar dense elevation="0" class="header">
     <div class="header__content">
-      <v-avatar size="20" color="red" tile>
+      <v-avatar size="20" tile>
         <img src="@/assets/logo.png" alt="Logo" />
       </v-avatar>
       <span class="header__content_ttl">TDU 二部写真部</span>
