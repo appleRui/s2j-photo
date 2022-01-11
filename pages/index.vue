@@ -27,4 +27,5 @@ export default Vue.extend({
 
 <style>
 @import "vue-notion/src/styles.css";
+@import "@/assets/style/overrides.css";
 </style>
